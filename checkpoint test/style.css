@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+nav img {
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+nav ul {
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+nav li {
+    margin: 0px 30px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav input {
+    background: pink;
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+nav button {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 9px;
+    border: 2px solid white;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.sec1 {
+    background: green;
+    height: 400px;
+}
+
+.sec2 {
+    background: rgb(62, 62, 255);
+    height: 400px;
+}
+
+.sec3 {
+    height: 400px;
+}
+
+.mainbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 150px;
+    height: 100%;
+}
+
+.mainbox img {
+    width: 250px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.mainbox h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.mainbox p {
+    font-size: 18px;
+}
+
+footer {
+    background: black;
+    color: white;
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
